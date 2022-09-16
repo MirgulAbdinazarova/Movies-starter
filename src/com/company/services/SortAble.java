@@ -6,11 +6,11 @@ public interface SortAble {
 
     void printAllMovies();
 
-    void findMovie(String movieName);
+    void findMovie();
 
     void sortByYear(int year);
 
     void sortByName(String name);
 
-    void sortByDirector(Director director);
+    void sortByDirector();
 }
